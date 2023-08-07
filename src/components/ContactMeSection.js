@@ -60,7 +60,7 @@ const LandingSection = () => {
                 <FormLabel htmlFor="firstName">Name</FormLabel>
                 <Input
                   id="firstName"
-                  name="FirstName" // Updated the name attribute to match the field name
+                  name="FirstName"
                   onChange={formik.handleChange}
                   value={formik.values.FirstName}
                 />
@@ -72,7 +72,7 @@ const LandingSection = () => {
                 <FormLabel htmlFor="email">Email Address</FormLabel>
                 <Input
                   id="email"
-                  name="Email" // Updated the name attribute to match the field name
+                  name="Email"
                   type="email"
                   onChange={formik.handleChange}
                   value={formik.values.Email}
